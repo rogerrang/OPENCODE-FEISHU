@@ -1,0 +1,22 @@
+{
+  "name": "roger-brain",
+  "version": "20.0.0",
+  "description": "Bi-directional Feishu Command System - Enterprise Edition",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["feishu", "opencode", "bot", "automation"],
+  "author": "Roger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
